@@ -20,7 +20,7 @@ class Gui():
         self.name       = name
         self.share      = share
         self.gui        = None
-        self.guiClose   = None
+        self.gui_Close   = None
         #
         if not glfw.init():
             raise Exception('GLFW can not be created !')
@@ -30,10 +30,10 @@ class Gui():
         if not  self.gui:
             raise Exception('GLFW can not create window gui !')
         #
-        glfw.set_window_pos(self.positionX,self.positionY)
+        glfw.set_window_pos(self.gui,self.positionX,self.positionY)
         glfw.make_context_current(self.gui)
         #
-        self.window_close = glfw.window_should_close(self.gui)
+        self.gui_Close = glfw.window_should_close(self.gui)
 
     def gui_update(self):
         glfw.poll_events()
@@ -41,6 +41,8 @@ class Gui():
             raise Exception('GUI is not create !')
         else:
             glfw.swap_buffers(self.gui)
+            self.gui_Close = glfw.window_should_close(self.gui)
+
 
     def gui_terminate(self):
         glfw.terminate()
