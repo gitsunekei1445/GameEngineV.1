@@ -2,7 +2,7 @@
 from Bin.Gui import *
 import glfw
 #
-winGui = Gui(1200,600,'test',None,None)
+winGui = Gui(1200,600,'test',True,None)
 #
 while not winGui.gui_Close:
     #
