@@ -1,4 +1,4 @@
-# GameEngineV.1
+# GameEngine Package 
 Main repository my team project .
 ##### Project name        : 8Engine
 ##### Develop language    : Python 3.7
@@ -18,4 +18,11 @@ Main repository my team project .
 - Engine Code     Mr.Samart Ketrahong Computer Engineering Students
 - Design Model 3D 
 - Report & Tester 
+
+##### Module    :
+- GUI     Developing
+- Core    Cooming soon
+- Randering Cooming soon
+- Datebase Cooming soon
+- Physic Cooming soon
 
