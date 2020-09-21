@@ -20,9 +20,9 @@ Main repository my team project .
 - Report & Tester 
 
 ##### Module    :
-- GUI     Developing
+- GUI     Developing  80 %
 - Core    Cooming soon
-- Randering Cooming soon
+- Randering Developing 1 %
 - Datebase Cooming soon
 - Physic Cooming soon
 
