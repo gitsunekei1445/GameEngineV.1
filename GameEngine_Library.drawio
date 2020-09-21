@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-21T18:52:08.984Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="UCUBf63Kh_IwJm4kMKul" version="13.7.1" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2020-09-21T19:03:52.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="9QwnndnAXXbeq2w5UHyp" version="13.7.1" type="github" pages="5">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="MainModule">
     <mxGraphModel dx="1242" dy="671" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -186,6 +186,12 @@
         </mxCell>
         <mxCell id="cifU7Go-w_zpYjOx62kg-6" value="+ gui_showFPS(): Void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="k7FgJCScwCKtDjICe6_u-0">
           <mxGeometry y="632" width="265" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cifU7Go-w_zpYjOx62kg-10" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center ; text-decoration: underline&quot;&gt;&lt;b&gt;Object:Gui&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;width = 400&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;height = 300&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;position_X = 400&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;position_Y = 200&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;fullScreen = None&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;title = &#39;GUI&#39;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;share = None&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;gui = None&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;gui_close = None&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;icon_referance = &#39;icon.png&#39;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;icon = None&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 8px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="89Zi2tkXLuuMYFYUjvYF-1">
+          <mxGeometry x="810" y="307" width="240" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="cifU7Go-w_zpYjOx62kg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="89Zi2tkXLuuMYFYUjvYF-1" source="k7FgJCScwCKtDjICe6_u-14" target="cifU7Go-w_zpYjOx62kg-10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
